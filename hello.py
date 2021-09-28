@@ -1,10 +1,10 @@
 import argparse
 
-
+# Function that greets you
 def hello(name):
     print(f"Hello, {name}")
 
-
+# Main function
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("-n", "--name", action="store", nargs="?", help="Your name")
