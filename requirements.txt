@@ -1,0 +1,9 @@
+# requirements.txt
+
+# You can get the latest version ...
+polars
+plotnine
+
+# ... or a specific version
+more-itertools == 10.1.0 
+scikit-image >= 0.21.0, <= 0.22.0

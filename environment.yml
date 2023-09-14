@@ -1,0 +1,16 @@
+channels:
+  # Conda channels to search for packages
+  - conda-forge
+  - bioconda
+dependencies:
+  # Conda can manage Python itself
+  - python >=3.10,<4.0
+  # Install packages from conda-forge/bioconda
+  - polars
+  - plotnine
+  # Specify a package version
+  - scikit-image >=0.21.0,<0.22.0
+  # Install pip and packages from PyPI
+  - pip
+  - pip:
+    - more_itertools == 10.1.0
