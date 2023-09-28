@@ -12,3 +12,21 @@ Please use this as a template for you project.
 ## Example
     python hello.py -n Alvar
     Hello, Alvar
+
+***hello***
+
+    this
+    is
+    code
+
+hello this is `code`
+
+```
+this
+is
+a
+codeblock
+```
+
+
+[Link](www.google.com)
